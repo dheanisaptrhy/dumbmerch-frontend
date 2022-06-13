@@ -1,0 +1,112 @@
+.divMain{
+    width: 100%;
+    background-color:#131313 ;
+    height:100vh;
+}
+
+.headingRed {
+    color:#F74D4D;
+    font-weight: 700;
+}
+.headingWhite{
+    color:white;
+    font-weight: 700;
+}
+.headingBlack{
+    color:black;
+    font-weight: 700;
+}
+
+.btnNavbar{
+    border: none;
+    color:white;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.btnActionDelete{
+    background-color: #F74D4D;
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    padding: 5px 15px;
+    color:white;
+}
+.btnActionEdit{
+    background-color: #56C05A;
+    width: 45%;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+    padding: 5px 15px;
+    color:white;
+}
+
+.btnActionUpload{
+    background-color: #F74D4D;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+    padding: 5px 15px;
+    color:white;
+}
+
+.btnActionAdd{
+    background-color: #F74D4D;
+    width: 100%;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+    padding: 5px 15px;
+    color:white;
+}
+
+.textWhite{
+    color:white;
+}
+
+.btnRedFull{
+    width: 100%;
+    padding:5px 0;
+    background-color: #F74D4D;
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.btnRedFull:hover{
+    background-color: #ce3333;
+
+}
+
+.miniPict{
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card{
+    width:13rem;
+    margin-top: 20px;
+    margin-right: 5px;
+    background-color: #262626;
+    color: white;
+}
+
+.input{
+    width: 100%;
+    padding:8px 0;
+    color: white;
+    border-color: 2px solid #BCBCBC;
+    background-color: rgba(210, 210, 210, 0.25);
+    margin-bottom: 15px;
+}
+.btnInput{
+    background-color: #F74D4D;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    height: "30px",
+
+}

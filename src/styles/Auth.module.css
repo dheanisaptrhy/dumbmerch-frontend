@@ -1,0 +1,56 @@
+*{
+    font-family: "Avenir", Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+    background-color:#131313 ;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.miniContainer{
+    margin-left: 20px;
+    width: 50vh;
+    padding: 30px 30px 15px 30px;
+    background-color: #303030;
+    border-radius: 5px;
+}
+.signinH1, .signupH1{
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.input{
+    width: 100%;
+    border-color: 2px solid #BCBCBC;
+    background-color: rgba(210, 210, 210, 0.25);
+    margin-bottom: 15px;
+}
+.button{
+    margin: 15px 0;
+    width: 100%;
+    padding:8px 0;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background-color: #F74D4D;
+}
+.btnLogin{
+    padding:6px 45px;
+    border: none;
+    color: white;
+    background-color: #F74D4D;
+    border-radius: 5px;
+}
+.btnRegis{
+    padding:6px 45px;
+    border: none;
+    color: #6A6A6A;
+    background-color: #131313;
+}
+.button:hover, .btnLogin:hover{
+    background-color: #da2727;
+}

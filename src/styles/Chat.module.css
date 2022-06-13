@@ -1,0 +1,27 @@
+.chatBoxBuyer {
+    padding: 10px;
+    color:white;
+    background-color: #262626;
+}
+
+.chatBoxSeller {
+    padding: 10px;
+    color:white;
+    background-color: #575757;
+}
+
+.contactName{
+    font-weight: 700;
+    color: white;
+}
+.text{
+    color:#6A6A6A;
+}
+
+.inputMessage{
+    padding: 10px;
+    width: 100%;
+    background-color: #262626;
+    color:white;
+    border: none;
+}
