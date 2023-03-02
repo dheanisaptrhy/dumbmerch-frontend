@@ -3,7 +3,7 @@ import axios from 'axios';
 // membuat baseURL untuk hit endpoint yg dituju
 export const API = axios.create({
   // baseURL: process.env.SERVER_URL ||'https://dumbmerch-b34dhns.herokuapp.com/api/v1/'||'http://localhost:3500/api/v1/',
-  baseURL:'http://localhost:3500/api/v1/' || 'https://dmbmerch-api.up.railway.app/api/v1/',
+  baseURL:'https://dmbmerch-api.up.railway.app/api/v1/',
 });
 
 export const setAuthToken = (token) => {
