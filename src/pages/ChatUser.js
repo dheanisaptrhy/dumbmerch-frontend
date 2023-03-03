@@ -21,7 +21,7 @@ export default function ChatUser() {
     const [state] = useContext(UserContext)
 
     useEffect(() => {
-        socket = io( process.env.SERVER_URL , {
+        socket = io( 'https://dmb-dnsmerch.netlify.app/', {
             auth: {
                 token: localStorage.getItem('token')
             }, query: {
