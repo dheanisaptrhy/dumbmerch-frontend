@@ -31,7 +31,7 @@ export default function ChatSeller() {
         })
     }
     useEffect(() => {
-        socket = io('http://localhost:3500/', {
+        socket = io( process.env.SERVER_URL , {
             auth: {
                 token: localStorage.getItem('token')
             },
